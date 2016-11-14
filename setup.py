@@ -10,14 +10,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='unit22',
     version='0.0.1',
-    description='Sample package for Python-Guide.org',
+    description='Operate a brewery with a touchscreen on the Raspberry Pi.',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Joshua Flark',
+    author_email='joshuajmark@gmail.com',
+    url='https://github.com/archonic/unit22',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
-
